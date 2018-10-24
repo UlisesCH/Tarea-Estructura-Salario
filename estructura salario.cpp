@@ -69,7 +69,7 @@ float calafp (float sal,float afp)
 float calrenta (float sal, float renta)
 {
 
-	/*la renta se calcula mediente una table proporcinado por el ministerio de hacienda
+	/*la renta se calcula mediente una tabla proporcinado por el ministerio de hacienda
 	la cual se presenta a continuacion.
 	
 	a los que ganan de        a                         aplicar
@@ -78,7 +78,7 @@ float calrenta (float sal, float renta)
 	$895.25------------------$2038.10--------------------20% sobre lo que sobrepasa de $895.24 mas cuota fija de $60.00
 	$2038.11-----------------mas-------------------------30% sobre lo que sobrepasa de $2038.10 mas cuota fija de $253.37*/
 	
-	
+		//validacion para sacar el valor de la renta
    if (sal >=0.01 && sal <=472.00){
     	cout << "no se aplica renta" << endl; 	//por la cantiad que gana no se le aplica la renta
 	}
